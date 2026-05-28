@@ -198,3 +198,6 @@ themeBtn.addEventListener("click", () => {
         themeBtn.textContent = "🌙";
     }
 });
+function toggleTheme() {
+  document.body.classList.toggle("dark");
+}

@@ -267,34 +267,7 @@ button {
     box-shadow: 0 0 10px rgba(0, 240, 255, 0.15);
     background: rgba(0, 240, 255, 0.05);
 }
-.theme-btn{
-    width: 48px;
-    height: 48px;
-    margin-left: 10px;
-    border-radius: 12px;
-    background: rgba(255,255,255,0.03);
-    border: 1px solid var(--border-color);
-    color: white;
-    font-size: 20px;
-    transition: 0.3s;
-}
 
-.theme-btn:hover{
-    transform: scale(1.1);
-    border-color: var(--cyan);
-    box-shadow: var(--glow-cyan);
-}
-
-/* Modo claro */
-body.light-mode{
-    --bg-primary: #f5f5f5;
-    --bg-secondary: #ffffff;
-    --bg-card: #ffffff;
-    --bg-card-hover: #f0f0f0;
-    --text-primary: #111;
-    --text-secondary: #444;
-    --text-muted: #666;
-}
 
 .cart-badge {
     position: absolute;
@@ -1610,7 +1583,3 @@ section {
     font-size: 1.3rem;
     font-weight: bold;
 }
-
-
-
-
